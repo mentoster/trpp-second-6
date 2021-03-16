@@ -33,4 +33,7 @@ public class Message {
     @CsvBindByName(column = "created")
     private String created;
 
+    public Long getId() {
+        return id;
+    }
 }

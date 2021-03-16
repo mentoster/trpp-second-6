@@ -10,6 +10,10 @@ import lombok.Setter;
 @AllArgsConstructor
 public class HealthResponse {
 
+    public HealthResponse(String string) {
+        status = string;
+    }
+
     /** Статус работы. */
     private String status;
 
