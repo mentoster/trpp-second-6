@@ -35,12 +35,12 @@ dependencies {
 
 
 application {
-    mainClass.set("ru.mirea.Application")
+    mainClass.set("ru.mirea.trpp_second_6.Application")
 }
 
 java {
-    sourceCompatibility = JavaVersion.toVersion("11")
-    targetCompatibility = JavaVersion.toVersion("11")
+    sourceCompatibility = JavaVersion.toVersion("8")
+    targetCompatibility = JavaVersion.toVersion("8")
 }
 
 compileJava {
@@ -62,6 +62,7 @@ javadoc {
 }
 
 shadowJar {
+    surname="Mironov"
     archivesBaseName = "${project.name}"
     libsDirName = "${project.name}"
     classifier('')
